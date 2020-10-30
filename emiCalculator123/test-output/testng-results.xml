@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Multiple Test Suites" duration-ms="347306" started-at="2020-10-28T16:33:30 IST" finished-at="2020-10-28T16:39:17 IST">
+    <groups>
+    </groups>
+    <test name="Test Node1" duration-ms="347306" started-at="2020-10-28T16:33:30 IST" finished-at="2020-10-28T16:39:17 IST">
+      <class name="testCases.TestHome">
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:testCases.TestHome@a1cdc6d]" name="getStarted" is-config="true" duration-ms="5" started-at="2020-10-28T16:33:30 IST" finished-at="2020-10-28T16:33:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:1, instance:testCases.TestHome@a1cdc6d]" name="testOne" duration-ms="59604" started-at="2020-10-28T16:33:30 IST" data-provider="getDataTestOne" finished-at="2020-10-28T16:34:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=9.5, Tenure=5.0, Principal=2500000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:testCases.TestHome@a1cdc6d]" name="getStarted" is-config="true" duration-ms="1" started-at="2020-10-28T16:34:30 IST" finished-at="2020-10-28T16:34:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:1, instance:testCases.TestHome@a1cdc6d]" name="testOne" duration-ms="58985" started-at="2020-10-28T16:34:30 IST" data-provider="getDataTestOne" finished-at="2020-10-28T16:35:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=12.0, Tenure=8.0, Principal=5000000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:testCases.TestHome@a1cdc6d]" name="getStarted" is-config="true" duration-ms="0" started-at="2020-10-28T16:35:29 IST" finished-at="2020-10-28T16:35:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method status="PASS" signature="testOne(java.util.Hashtable)[pri:1, instance:testCases.TestHome@a1cdc6d]" name="testOne" duration-ms="61974" started-at="2020-10-28T16:35:29 IST" data-provider="getDataTestOne" finished-at="2020-10-28T16:36:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=15.0, Tenure=12.0, Principal=7500000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:testCases.TestHome@a1cdc6d]" name="getStarted" is-config="true" duration-ms="0" started-at="2020-10-28T16:36:31 IST" finished-at="2020-10-28T16:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method status="PASS" signature="testTwo(java.util.Hashtable)[pri:2, instance:testCases.TestHome@a1cdc6d]" name="testTwo" duration-ms="47273" started-at="2020-10-28T16:36:31 IST" data-provider="getDataTestTwo" finished-at="2020-10-28T16:37:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=9.5, Tenure=6.0, Principal=2000000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:testCases.TestHome@a1cdc6d]" name="getStarted" is-config="true" duration-ms="0" started-at="2020-10-28T16:37:18 IST" finished-at="2020-10-28T16:37:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method status="PASS" signature="testTwo(java.util.Hashtable)[pri:2, instance:testCases.TestHome@a1cdc6d]" name="testTwo" duration-ms="53962" started-at="2020-10-28T16:37:18 IST" data-provider="getDataTestTwo" finished-at="2020-10-28T16:38:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=15.0, Tenure=8.0, Principal=7000000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="getStarted()[pri:0, instance:testCases.TestHome@a1cdc6d]" name="getStarted" is-config="true" duration-ms="1" started-at="2020-10-28T16:38:12 IST" finished-at="2020-10-28T16:38:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStarted -->
+        <test-method status="PASS" signature="testTwo(java.util.Hashtable)[pri:2, instance:testCases.TestHome@a1cdc6d]" name="testTwo" duration-ms="52078" started-at="2020-10-28T16:38:12 IST" data-provider="getDataTestTwo" finished-at="2020-10-28T16:39:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=12.5, Tenure=10.0, Principal=9500000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testCases.TestHome@a1cdc6d]" name="endReport" is-config="true" duration-ms="152" started-at="2020-10-28T16:39:17 IST" finished-at="2020-10-28T16:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testCases.TestHome -->
+      <class name="testCases.TestCar">
+        <test-method status="PASS" signature="TestOne(java.util.Hashtable)[pri:1, instance:testCases.TestCar@623a8092]" name="TestOne" duration-ms="62273" started-at="2020-10-28T16:33:30 IST" data-provider="getDataTestOne" finished-at="2020-10-28T16:34:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=7.0, Tenure=3.0, Principal=100000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method status="PASS" signature="TestOne(java.util.Hashtable)[pri:1, instance:testCases.TestCar@623a8092]" name="TestOne" duration-ms="57941" started-at="2020-10-28T16:34:32 IST" data-provider="getDataTestOne" finished-at="2020-10-28T16:35:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=7.5, Tenure=4.0, Principal=700000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method status="PASS" signature="TestOne(java.util.Hashtable)[pri:1, instance:testCases.TestCar@623a8092]" name="TestOne" duration-ms="88301" started-at="2020-10-28T16:35:30 IST" data-provider="getDataTestOne" finished-at="2020-10-28T16:36:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=8.0, Tenure=5.0, Principal=900000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOne -->
+        <test-method status="PASS" signature="TestTwo(java.util.Hashtable)[pri:2, instance:testCases.TestCar@623a8092]" name="TestTwo" duration-ms="43220" started-at="2020-10-28T16:36:59 IST" data-provider="getDataTestTwo" finished-at="2020-10-28T16:37:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=9.5, Tenure=1.0, Principal=1500000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method status="PASS" signature="TestTwo(java.util.Hashtable)[pri:2, instance:testCases.TestCar@623a8092]" name="TestTwo" duration-ms="48774" started-at="2020-10-28T16:37:42 IST" data-provider="getDataTestTwo" finished-at="2020-10-28T16:38:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=8.0, Tenure=4.0, Principal=400000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method status="PASS" signature="TestTwo(java.util.Hashtable)[pri:2, instance:testCases.TestCar@623a8092]" name="TestTwo" duration-ms="45148" started-at="2020-10-28T16:38:31 IST" data-provider="getDataTestTwo" finished-at="2020-10-28T16:39:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Rate=12.5, Tenure=6.0, Principal=900000.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTwo -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testCases.TestCar@623a8092]" name="endReport" is-config="true" duration-ms="811" started-at="2020-10-28T16:39:16 IST" finished-at="2020-10-28T16:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testCases.TestCar -->
+    </test> <!-- Test Node1 -->
+  </suite> <!-- Multiple Test Suites -->
+</testng-results>
